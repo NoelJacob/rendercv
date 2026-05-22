@@ -90,10 +90,10 @@ rendercv = 'rendercv.cli.entry_point:entry_point'
 [dependency-groups]
 dev = [
     'ruff>=0.14.10',       # Lint and format the code
-    'black>=25.12.0',      # Format the code
+    'black>=26.3.1',      # Format the code
     'ty>=0.0.5',           # Type checking
     'prek>=0.2.23',        # Run checks before committing (pre-commit alternative)
-    'pytest>=9.0.2',       # Run tests
+    'pytest>=9.0.3',       # Run tests
     'pytest-cov>=7.0.0',   # Coverage plugin for pytest with xdist support
     "pytest-xdist>=3.8.0", # Run tests in parallel
 ]
@@ -107,7 +107,7 @@ docs = [
 ]
 update-entry-figures = [
     'pdfCropMargins==2.2.1', # Generate entry figures for documentation
-    'pillow==10.4.0',        # Lock dependency of pdfCropMargins
+    'pillow==12.2.0',        # Lock dependency of pdfCropMargins
     'PyMuPDF==1.26.5',       # Convert PDF files to images
 ]
 create-executable = [
